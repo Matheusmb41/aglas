@@ -107,7 +107,11 @@ header.menu-fixed {
 
 .logo {
   float: left;
-  margin: 9px;
+  margin: 15px;
+}
+
+.logo img {
+  width: 137px;
 }
 
 @media screen and (min-width: 721px) {
@@ -120,7 +124,7 @@ header.menu-fixed {
 }
 @media screen and (min-width: 960px) {
   .inner {
-    width: 800px;
+    width: 1000px;
     margin: 0 auto;
   }
 }
@@ -386,8 +390,8 @@ header.menu-fixed {
 #quemsomos .conteudo img {
   position: absolute;
   top: 50%;
-  right: 199px;
-  transform: translate(0%, -50%);
+  right: 0%;
+  transform: translate(-50%, -50%);
   width: 455px;
 }
 @media screen and (max-width: 575px) {
