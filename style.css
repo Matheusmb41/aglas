@@ -678,6 +678,9 @@ section {
   color: var(--cinzaclaro);
   line-height: 1.5;
 }
+#rodape .conteudo .quemsomos-footer img {
+  width: 60px;
+}
 #rodape .conteudo .servicos-footer h3,
 .contato-footer h3 {
   color: var(--branco);
