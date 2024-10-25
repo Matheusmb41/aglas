@@ -345,15 +345,19 @@ header.menu-fixed {
 #quemsomos {
   background-image: url("img/background.jpg");
   background-size: 100%;
-  position: relative;
+  background-color: var(--preto);
+  background-attachment: fixed;
 }
 #quemsomos .margin {
   padding: 70px 0;
   max-width: 1121px;
   margin: auto;
 }
-#quemsomos .texto {
-  width: 600px;
+#quemsomos .conteudo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: end;
+  align-items: center;
 }
 #quemsomos .conteudo .descricao-quemsomos h2 {
   font-size: 50px;
@@ -366,11 +370,11 @@ header.menu-fixed {
   color: var(--cinza);
   line-height: 1.5;
   margin: 0 0 100px 0;
-  width: 500px;
 }
 #quemsomos .conteudo .missao-valores {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  gap: 50px;
 }
 #quemsomos .missao-valores svg {
   fill: var(--corprincipal);
@@ -388,11 +392,8 @@ header.menu-fixed {
   margin-bottom: 0;
 }
 #quemsomos .conteudo img {
-  position: absolute;
-  top: 50%;
-  right: 0%;
-  transform: translate(-50%, -50%);
   width: 455px;
+  border-radius: 5px;
 }
 @media screen and (max-width: 575px) {
   #quemsomos {
@@ -402,9 +403,6 @@ header.menu-fixed {
     margin: auto;
     width: 85%;
   }
-  #quemsomos .texto {
-    width: auto;
-  }
   #quemsomos .conteudo img {
     display: none;
   }
@@ -413,7 +411,6 @@ header.menu-fixed {
   }
   #quemsomos .conteudo .descricao-quemsomos p {
     font-size: 14px;
-    width: auto;
   }
   #quemsomos .conteudo .missao-valores {
     grid-template-columns: 1fr;
