@@ -403,6 +403,9 @@ header.menu-fixed {
     margin: auto;
     width: 85%;
   }
+  #quemsomos .conteudo {
+    grid-template-columns: repeat(1, 1fr);
+  }
   #quemsomos .conteudo img {
     display: none;
   }
@@ -417,7 +420,7 @@ header.menu-fixed {
     gap: 20px;
   }
   #quemsomos .missao-valores h3 {
-    font-size: 18px;
+    font-size: 25px;
   }
   #quemsomos .missao-valores p {
     font-size: 14px;
