@@ -189,13 +189,13 @@ header.menu-fixed {
 .banner-header h1 {
   position: absolute;
   top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  left: 200px;
+  transform: translate(-0%, -50%);
   font-size: 48px;
   color: var(--branco);
-  text-align: center;
   font-weight: 400;
-  width: 100%;
+  width: 30%;
+  text-align: left;
 }
 .banner-header b {
   font-weight: 700;
@@ -203,9 +203,9 @@ header.menu-fixed {
 }
 .banner-header .botao {
   position: absolute;
-  top: 83%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 75%;
+  left: 200px;
+  transform: translate(-0%, -50%);
   font-size: 16px;
   font-weight: 700;
   padding: 15px 30px;
