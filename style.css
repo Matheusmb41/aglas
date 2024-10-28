@@ -231,6 +231,10 @@ header.menu-fixed {
     font-size: 35px;
     width: 85%;
     margin: auto;
+    left: 10%;
+  }
+  .banner-header .botao {
+    left: 10%;
   }
 }
 
